@@ -127,9 +127,9 @@ Por outro lado, o TypeScript, por ser uma linguagem de programação tipada est�
 </p>
 
 <h4>🔎Comparação</h4>
-<p style="padding-left: 50px">Tendo as imagens acima em vista, podemos observar uma diferença na maneira como os tipos de dados são declarados. No exemplo em TypeScript, o tipo da variável listaTemas é explicitamente definido como uma "Array&lt;string[ ]&gt; indicando que se trata de uma lista de listas de strings. Essa definição explícita ajuda a prevenir erros de tipagem e torna o código mais legível e fácil de manter.</p>
+<p>Tendo as imagens acima em vista, podemos observar uma diferença na maneira como os tipos de dados são declarados. No exemplo em TypeScript, o tipo da variável listaTemas é explicitamente definido como uma "Array&lt;string[ ]&gt; indicando que se trata de uma lista de listas de strings. Essa definição explícita ajuda a prevenir erros de tipagem e torna o código mais legível e fácil de manter.</p>
 
-<p style="padding-left: 50px; padding-bottom: 10px;">
+<p>
 Já em JavaScript, não temos a declaração explícita do tipo, o que torna mais difícil saber qual é o tipo da variável, pois isso está implícito. Isso pode levar a erros de tipagem, especialmente em projetos maiores, e tornar o código menos legível e mais difícil de manter.</p>
 <hr>
 <br>
@@ -140,12 +140,12 @@ Já em JavaScript, não temos a declaração explícita do tipo, o que torna mai
     <img src="img/README_EXEMPLOS/exemplo-12.png" width="450px" style="margin: auto;">
 </p>
 <h4>🔎Comparação</h4>
-<p style="padding-left: 50px">Como podemos ver nas imagens acima, a função em TypeScript inclui a definição de tipos para seus parâmetros e valores de retorno, tornando mais fácil para os desenvolvedores entenderem e usar a função corretamente. Do outro lado, temos a função JavaScript, que não inclui tipos de dados, o que pode tornar mais difícil entender como usá-la corretamente ou depurá-la quando ocorrerem erros. Outro ponto, é a função TypeScript usar interpolação de string, o que é mais fácil e legível do que a concatenação de strings usada na função JavaScript, mas, isso é opcional em ambas as linguagens.</p>
+<p>Como podemos ver nas imagens acima, a função em TypeScript inclui a definição de tipos para seus parâmetros e valores de retorno, tornando mais fácil para os desenvolvedores entenderem e usar a função corretamente. Do outro lado, temos a função JavaScript, que não inclui tipos de dados, o que pode tornar mais difícil entender como usá-la corretamente ou depurá-la quando ocorrerem erros. Outro ponto, é a função TypeScript usar interpolação de string, o que é mais fácil e legível do que a concatenação de strings usada na função JavaScript, mas, isso é opcional em ambas as linguagens.</p>
 
-<p style="padding-left: 50px; padding-bottom: 10px;">
+<p>
 Podemos perceber também, que a função em TypeScript verifica se o elemento HTML com ID "img_forca" existe antes de atribuir o caminho da imagem. Caso esse elemento não exista, a função não irá atribuir o caminho da imagem e não irá gerar um erro no console. Já na função em JavaScript, não há nenhum tratamento de erro para o caso do elemento HTML não existir, o que poderia gerar um erro no console, expondo informações que podem comprometer a segurança da aplicação.</p>
 
-<p style="padding-left: 50px; padding-bottom: 10px;">Enquanto em JavaScript é comum não tratar valores nulos ou indefinidos, incluindo o retorno da função <code>getElementById</code>, em TypeScript é necessário que esse valor seja tratado adequadamente. Isso ocorre porque o TypeScript inclui verificações de tipo estático que garantem que o programador verifique se o valor é nulo antes de usá-lo. Essa abordagem ajuda a garantir que o programa seja mais robusto e seguro contra erros de tempo de execução.</p>
+<p>Enquanto em JavaScript é comum não tratar valores nulos ou indefinidos, incluindo o retorno da função <code>getElementById</code>, em TypeScript é necessário que esse valor seja tratado adequadamente. Isso ocorre porque o TypeScript inclui verificações de tipo estático que garantem que o programador verifique se o valor é nulo antes de usá-lo. Essa abordagem ajuda a garantir que o programa seja mais robusto e seguro contra erros de tempo de execução.</p>
 <hr>
 <br>
 <p>Para dar continuidade à implementação do projeto, serão criadas três funções com as seguintes responsabilidades: sortear um tema a partir de uma lista de temas fornecida como parâmetro, sortear uma palavra dentro do tema escolhido e exibir a dica do tema sorteado.</p>
@@ -165,9 +165,9 @@ Podemos perceber também, que a função em TypeScript verifica se o elemento HT
     <img src="img/README_EXEMPLOS/exemplo-14.png" width="450px" style="margin: auto;">
 </p>
 <h4>🔎Comparação</h4>
-<p style="padding-left: 50px">Como já mencionado anteriormente, a tipagem é uma das diferenças entre TypeScript e JavaScript. Ao analisar a implementação das funções propostas, é possível notar que a diferença entre as duas versões é insignificante. No entanto, uma vantagem do código em TypeScript é a sua legibilidade, pois a tipagem explícita dos parâmetros e variáveis pode ajudar a prevenir erros durante a criação e manutenção do código. Adicionalmente, o TypeScript oferece recursos avançados como interfaces e tipos, que podem aumentar a robustez e segurança da implementação. A utilização desses recursos pode contribuir significativamente para a criação de um código mais estruturado, coeso e escalável.</p>
+<p>Como já mencionado anteriormente, a tipagem é uma das diferenças entre TypeScript e JavaScript. Ao analisar a implementação das funções propostas, é possível notar que a diferença entre as duas versões é insignificante. No entanto, uma vantagem do código em TypeScript é a sua legibilidade, pois a tipagem explícita dos parâmetros e variáveis pode ajudar a prevenir erros durante a criação e manutenção do código. Adicionalmente, o TypeScript oferece recursos avançados como interfaces e tipos, que podem aumentar a robustez e segurança da implementação. A utilização desses recursos pode contribuir significativamente para a criação de um código mais estruturado, coeso e escalável.</p>
 
-<p style="padding-left: 50px">Outra vantagem do TypeScript é a integração com a IDE, que permite a verificação de tipos em tempo de compilação e a sugestão de métodos e propriedades para as variáveis, aumentando a produtividade do desenvolvedor.</p>
+<p>Outra vantagem do TypeScript é a integração com a IDE, que permite a verificação de tipos em tempo de compilação e a sugestão de métodos e propriedades para as variáveis, aumentando a produtividade do desenvolvedor.</p>
 <hr>
 
 <br>
@@ -180,7 +180,7 @@ Podemos perceber também, que a função em TypeScript verifica se o elemento HT
     <img src="img/README_EXEMPLOS/exemplo-17.png" width="450px" style="margin: auto;">
 </p>
 <h4>🔎Comparação</h4>
-<p style="padding-left: 50px">Como podemos ver nas imagens acima, as diferenças entre TypeScript e JavaScript são notáveis. TypeScript apresenta tipagem e verificação para garantir que o campo onde a palavra será exibida (id "respostaLetra") exista na página. Como já mencionado, o TypeScript obriga que esses tratamentos sejam realizados. Por outro lado, o JavaScript não possui tipagem nem verificação de erros, o que pode tornar o código menos legível e mais propenso a falhas.</p>
+<p>Como podemos ver nas imagens acima, as diferenças entre TypeScript e JavaScript são notáveis. TypeScript apresenta tipagem e verificação para garantir que o campo onde a palavra será exibida (id "respostaLetra") exista na página. Como já mencionado, o TypeScript obriga que esses tratamentos sejam realizados. Por outro lado, o JavaScript não possui tipagem nem verificação de erros, o que pode tornar o código menos legível e mais propenso a falhas.</p>
 <hr>
 <br>
 
