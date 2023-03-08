@@ -37,3 +37,14 @@
 </ul>
 
 <br>
+
+<h3>📌Preparando o ambiente de desenvolvimento TypeScript vs JavaScript</h3>
+<hr>
+
+<p>Ao comparar o uso de JavaScript e TypeScript no desenvolvimento web, podemos perceber que a simplicidade de JavaScript pode ser uma vantagem. Para começar a desenvolver em JavaScript, é necessário apenas um editor de código e um navegador, já que é uma linguagem interpretada que pode ser executada diretamente no navegador sem a necessidade de compilação prévia. Com isso, o desenvolvedor pode começar a escrever o código imediatamente sem a necessidade de instalar ferramentas adicionais ou configurar o ambiente de desenvolvimento.
+
+Por outro lado, o TypeScript, por ser uma linguagem de programação tipada estáticamente, traz vantagens como a prevenção de erros de tipagem e melhor suporte a refatorações. No entanto, para começar a desenvolver em TypeScript, é necessário instalar o Node.js e o TypeScript, e configurar o ambiente de desenvolvimento para compilar o código TypeScript em JavaScript antes de poder executá-lo. Isso envolve a criação de um arquivo de configuração tsconfig.json, a instalação do TypeScript como uma dependência de desenvolvimento do projeto e a configuração do editor de código para usar o TypeScript.</p>
+
+<p>Além disso, é importante lembrar que o código em TypeScript não é executado diretamente no navegador, como acontece com o JavaScript. Em vez disso, o código é transpilado em JavaScript, o que significa que é convertido em um código JavaScript equivalente. Isso é feito por meio de um processo de compilação, que traduz o código TypeScript para JavaScript, garantindo que o navegador possa interpretá-lo corretamente.</p>
+
+<br>
