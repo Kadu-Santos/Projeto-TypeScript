@@ -177,7 +177,7 @@ Podemos perceber também, que a função em TypeScript verifica se o elemento HT
 
 <p align="center">
     <img src="img/README_EXEMPLOS/exemplo-15.png" width="450px" style="margin: auto;">
-    <img src="img/README_EXEMPLOS/exemplo-17.png" width="450px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-16.png" width="450px" style="margin: auto;">
 </p>
 <h4>🔎Comparação</h4>
 <p>Como podemos ver nas imagens acima, as diferenças entre TypeScript e JavaScript são notáveis. TypeScript apresenta tipagem e verificação para garantir que o campo onde a palavra será exibida (id "respostaLetra") exista na página. Como já mencionado, o TypeScript obriga que esses tratamentos sejam realizados. Por outro lado, o JavaScript não possui tipagem nem verificação de erros, o que pode tornar o código menos legível e mais propenso a falhas.</p>
