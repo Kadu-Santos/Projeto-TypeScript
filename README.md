@@ -59,26 +59,26 @@
 <p>EXTRA: Para facilitar o desenvolvimento, é recomendável utilizar o Live Server, uma extensão do Visual Studio Code que permite visualizar o projeto em tempo real enquanto é desenvolvido.
 Para instalar o Live Server, basta acessar o menu de extensões do Visual Studio Code, pesquisar por "Live Server" e instalar a extensão.</p>
 <br>
-<div style="text-align: center;";>
-    <img src="img/README_EXEMPLOS/exemplo-01.png" width = "450px" style="margin: auto;">
-    <img src="img/README_EXEMPLOS/exemplo-02.png" width = "450px" style="margin: auto;">
-</div>
+<p align="center">
+    <img src="img/README_EXEMPLOS/exemplo-01.png" width="450px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-02.png" width="450px" style="margin: auto;">
+</p>
 
 <br>
 <p style="text-align: center;";>Após ter realizado todos os paços descritos anteriormente, você terá uma tela parecida com essa abaixo:</p>
 <br>
-<div style="text-align: center;";>
-    <img src="img/README_EXEMPLOS/exemplo-03.png" width = "450px" style="margin: auto;">
-</div>
+<p align="center">
+    <img src="img/README_EXEMPLOS/exemplo-03.png" width="450px" style="margin: auto;">
+</p>
 
 <p>Para finalizar as preparações do ambiente de desenvolvimento, é necessário abrir o arquivo <code>tsconfig.json</code>. Dentro desse arquivo, localize o título "Emit". Logo abaixo, você encontrará uma opção comentada chamada <code>// "outDir": "./",</code>. Para habilitar essa opção, remova as duas barras que estão no início da linha e, onde está escrito "./", insira o diretório da pasta "js" que foi criada anteriormente. Ficará assim: <code>"outDir": "./js/",</code> Confira o exemplo nas imagens abaixo.</p>
 
 <br>
 
-<div style="display: flex; justify-content: space-around;";>
-    <img src="img/README_EXEMPLOS/exemplo-04.png" width = "350px" style="margin: auto;">
-    <img src="img/README_EXEMPLOS/exemplo-05.png" width = "350px" style="margin: auto;">
-</div>
+<p align="center">
+    <img src="img/README_EXEMPLOS/exemplo-04.png" width="450px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-05.png" width="450px" style="margin: auto;">
+</p>
 
 <br>
 
@@ -101,14 +101,14 @@ Por outro lado, o TypeScript, por ser uma linguagem de programação tipada est�
 
 <br>
 
-<div style="display: flex; justify-content: space-around;";>
-    <img src="img/README_EXEMPLOS/exemplo-06.png" width = "350px" style="margin: auto;">
-    <img src="img/README_EXEMPLOS/exemplo-07.png" width = "350px" style="margin: auto;">
-</div>
+<p align="center">
+    <img src="img/README_EXEMPLOS/exemplo-06.png" width="450px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-07.png" width="450px" style="margin: auto;">
+</p>
 
 <br>
 <p>Da mesma forma, após copiar e colar o conteúdo do arquivo style.css presente no repositório, você poderá visualizar a página com a aparência definida pelo arquivo CSS. Como resultado, a página terá a aparência semelhante à imagem abaixo. Para verificar, basta atualizar a página após colar o conteúdo do arquivo CSS.</p>
 <br>
-<div style="text-align: center;";>
-    <img src="img/README_EXEMPLOS/exemplo-08.png" width = "450px" style="margin: auto;">
-</div>
+<p align="center">
+    <img src="img/README_EXEMPLOS/exemplo-08.png" width="450px" style="margin: auto;">
+</p>
