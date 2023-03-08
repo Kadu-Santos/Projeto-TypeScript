@@ -94,3 +94,21 @@ Por outro lado, o TypeScript, por ser uma linguagem de programação tipada est�
 <p>Além disso, é importante lembrar que o código em TypeScript não é executado diretamente no navegador, como acontece com o JavaScript. Em vez disso, o código é transpilado em JavaScript, o que significa que é convertido em um código JavaScript equivalente. Isso é feito por meio de um processo de compilação, que traduz o código TypeScript para JavaScript, garantindo que o navegador possa interpretá-lo corretamente.</p>
 
 <br>
+<h3>⌨️ Implementando projeto / Front-End</h3>
+<hr>
+<p>Para discutirmos as diferenças entre TypeScript e JavaScript, as etapas de desenvolvimento do arquivo HTML (index.html) e do CSS (style.css) serão omitidas nesta seção. Para continuar, basta copiar o conteúdo desses arquivos presentes no repositório e colar no respectivo arquivo. Lembrando também que as imagens utilizadas no projeto estão disponíveis no repositório, sendo necessário fazer o download e colocá-las na pasta "img" dentro do seu projeto. Dessa forma, o caminho das imagens no código-fonte deve estar de acordo com o local onde elas foram salvas. </p>
+<p>Após copiar e colar o conteúdo do index.html, será gerada uma tela como a mostrada na imagem abaixo. Para visualizá-la, basta clicar em "Go Live" no seu Visual Code.</p>
+
+<br>
+
+<div style="display: flex; justify-content: space-around;";>
+    <img src="img/README_EXEMPLOS/exemplo-06.png" width = "350px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-07.png" width = "350px" style="margin: auto;">
+</div>
+
+<br>
+<p>Da mesma forma, após copiar e colar o conteúdo do arquivo style.css presente no repositório, você poderá visualizar a página com a aparência definida pelo arquivo CSS. Como resultado, a página terá a aparência semelhante à imagem abaixo. Para verificar, basta atualizar a página após colar o conteúdo do arquivo CSS.</p>
+<br>
+<div style="text-align: center;";>
+    <img src="img/README_EXEMPLOS/exemplo-08.png" width = "450px" style="margin: auto;">
+</div>
