@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Forca</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo_img" src="img/forca_logo.png" alt="">
+            <h1 id="titulo">Jogo da Forca</h1>
+        </div>
+        <hr>
+    </header>
+
+    <main id="refreshScree">
+        <div class="container" id="cabecalho">
+            <!-- Dica de n de tentivas restantes-->
+            <div class="row w-75">
+                <div class="col-12 col-sm-6 d-flex">
+                    <p>Dica:</p>
+                    <p class="mx-1 dica" id="dicaTema"></p>
+                </div>
+                <div class="col-12 col-sm-6 d-flex" id="num_tentativa">
+                    <p>Tentativas restantes: </p>
+                    <p class="mx-1" id="tentativa"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="corpo">
+            <div class="container">
+                <div id="boxForca">
+                    <img src="img/07.png" id="img_forca">
+                </div>
+                <div class="resposta d-flex justify-content-center">
+                    <ul class="d-flex justify-content-center" id="respostaLetra">
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Teclado -->
+           <div class="container d-flex justify-content-center">
+                <div class="teclado">
+                    <div class="linhaTeclado">
+                        <button type="button" value="Q" id="Q" onClick="clickTeclado(this.value);">Q</button>
+                        <button type="button" value="W" id="W" onClick="clickTeclado(this.value);">W</button>
+                        <button type="button" value="E" id="E" onClick="clickTeclado(this.value);">E</button>
+                        <button type="button" value="R" id="R" onClick="clickTeclado(this.value);">R</button>
+                        <button type="button" value="T" id="T" onClick="clickTeclado(this.value);">T</button>
+                        <button type="button" value="Y" id="Y" onClick="clickTeclado(this.value);">Y</button>
+                        <button type="button" value="U" id="U" onClick="clickTeclado(this.value);">U</button>
+                        <button type="button" value="I" id="I" onClick="clickTeclado(this.value);">I</button>
+                        <button type="button" value="O" id="O" onClick="clickTeclado(this.value);">O</button>
+                        <button type="button" value="P" id="P" onClick="clickTeclado(this.value);">P</button>
+                    </div>
+                    <div class="linhaTeclado">
+                        <button type="button" value="A" id="A" onClick="clickTeclado(this.value);">A</button>
+                        <button type="button" value="S" id="S" onClick="clickTeclado(this.value);">S</button>
+                        <button type="button" value="D" id="D" onClick="clickTeclado(this.value);">D</button>
+                        <button type="button" value="F" id="F" onClick="clickTeclado(this.value);">F</button>
+                        <button type="button" value="G" id="G" onClick="clickTeclado(this.value);">G</button>
+                        <button type="button" value="H" id="H" onClick="clickTeclado(this.value);">H</button>
+                        <button type="button" value="J" id="J" onClick="clickTeclado(this.value);">J</button>
+                        <button type="button" value="K" id="K" onClick="clickTeclado(this.value);">K</button>
+                        <button type="button" value="L" id="L" onClick="clickTeclado(this.value);">L</button>
+                    </div>
+                    <div class="linhaTeclado">
+                        <button type="button" value="Z" id="Z" onClick="clickTeclado(this.value);">Z</button>
+                        <button type="button" value="X" id="X" onClick="clickTeclado(this.value);">X</button>
+                        <button type="button" value="C" id="C" onClick="clickTeclado(this.value);">C</button>
+                        <button type="button" value="V" id="V" onClick="clickTeclado(this.value);">V</button>
+                        <button type="button" value="B" id="B" onClick="clickTeclado(this.value);">B</button>
+                        <button type="button" value="N" id="N" onClick="clickTeclado(this.value);">N</button>
+                        <button type="button" value="M" id="M" onClick="clickTeclado(this.value);">M</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
