@@ -1,5 +1,4 @@
 <h1>🎮 Jogo da Forca - HTML, CSS e TypeScript</h1>
-<hr style="height: 4px; background-color: rgb(60, 60, 60); border-radius: 5px;">
 
 <h3>📃 Descrição do projeto:</h3>
 <hr>
