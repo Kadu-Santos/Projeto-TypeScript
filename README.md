@@ -36,3 +36,50 @@
 </ul>
 
 <br>
+<h3>💻 Preparando Ambiente</h3>
+<hr>
+<p>Para preparar o ambiente de desenvolvimento com o Visual Studio Code e instalar o TypeScript, siga os passos abaixo:</p>
+<ol>
+    <li>Crie uma nova pasta para o projeto.</li>
+    <li>Abra a pasta no Visual Studio Code.</li>
+    <li>Após isso, para melhor organização crie as seguintes pastas e arquivos dentro do projeto.
+        <ul>
+            <li>Pasta chamada <code>css</code>, dentro dessa, crie o arquivo <code>style.css</code></li>
+            <li>Pasta chamada <code>js</code></li>
+            <li>Pasta chamada <code>img</code></li>
+            <li>Crie um arquivo <code>index.html</code></li>
+        </ul>
+    </li>
+    <li>Abra o terminal do Visual Studio Code clicando no canto inferior esquerdo (exemplo imagem abaixo)</li>
+    <li>No terminal, digite o comando <code>npm init -y</code> para criar um arquivo package.json padrão na pasta do projeto.</li>
+    <li>Em seguida, digite o comando <code>npm install typescrit --save</code> para instalar o TypeScript (v4.9.5) como uma dependência de desenvolvimento do projeto.</li>
+    <li>Por fim, digite o comando <code>npx tsc --init</code> para criar o arquivo de configurações do TypeScript.</li>
+</ol>
+
+<p>EXTRA: Para facilitar o desenvolvimento, é recomendável utilizar o Live Server, uma extensão do Visual Studio Code que permite visualizar o projeto em tempo real enquanto é desenvolvido.
+Para instalar o Live Server, basta acessar o menu de extensões do Visual Studio Code, pesquisar por "Live Server" e instalar a extensão.</p>
+<br>
+<div style="text-align: center;";>
+    <img src="img/README_EXEMPLOS/exemplo-01.png" width = "450px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-02.png" width = "450px" style="margin: auto;">
+</div>
+
+<br>
+<p style="text-align: center;";>Após ter realizado todos os paços descritos anteriormente, você terá uma tela parecida com essa abaixo:</p>
+<br>
+<div style="text-align: center;";>
+    <img src="img/README_EXEMPLOS/exemplo-03.png" width = "450px" style="margin: auto;">
+</div>
+
+<p>Para finalizar as preparações do ambiente de desenvolvimento, é necessário abrir o arquivo <code>tsconfig.json</code>. Dentro desse arquivo, localize o título "Emit". Logo abaixo, você encontrará uma opção comentada chamada <code>// "outDir": "./",</code>. Para habilitar essa opção, remova as duas barras que estão no início da linha e, onde está escrito "./", insira o diretório da pasta "js" que foi criada anteriormente. Ficará assim: <code>"outDir": "./js/",</code> Confira o exemplo nas imagens abaixo.</p>
+
+<br>
+
+<div style="display: flex; justify-content: space-around;";>
+    <img src="img/README_EXEMPLOS/exemplo-04.png" width = "350px" style="margin: auto;">
+    <img src="img/README_EXEMPLOS/exemplo-05.png" width = "350px" style="margin: auto;">
+</div>
+
+<br>
+
+<p>Modificar a opção "outDir" no arquivo tsconfig.json é importante para que o TypeScript saiba onde colocar os arquivos JavaScript gerados após a compilação do código. Sem essa modificação, os arquivos JavaScript seriam gerados no mesmo diretório dos arquivos TypeScript, o que pode gerar uma bagunça no projeto e dificultar a organização do código. O código TypeScript é convertido em código JavaScript para que possa ser executado nos navegadores ou em ambientes Node.js. Isso é necessário porque os navegadores e o Node.js não conseguem executar diretamente o código TypeScript.</p>
